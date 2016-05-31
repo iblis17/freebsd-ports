@@ -10,11 +10,11 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 DISTNAME=	py${PORTNAME}-${PORTVERSION}
 
 MAINTAINER=	gnome@FreeBSD.org
-COMMENT=	Python 2 library to access freedesktop.org standards
+COMMENT=	Python library to access freedesktop.org standards
 
 LICENSE=	LGPL20
 
-USES=		python:2
+USES=		python
 USE_PYTHON=	distutils autoplist
 
 post-patch:
